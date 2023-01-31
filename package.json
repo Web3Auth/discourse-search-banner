@@ -1,8 +1,8 @@
 {
-  "name": "discourse-search-banner",
+  "name": "web3auth-discourse-search-banner",
   "version": "1.0.0",
-  "repository": "https://github.com/discourse/discourse-search-banner",
-  "author": "Discourse",
+  "repository": "https://github.com/Web3Auth/web3auth-discourse-search-banner",
+  "author": "Web3Auth",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "eslint-config-discourse": "^3.1.0"
