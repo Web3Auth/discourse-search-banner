@@ -12,7 +12,7 @@ $max-width: 600px;
   @if $background-image != "none" {
     background-image: url($background-image);
   } @else {
-    background: none;
+    background-color: #0A0B33;
   }
   @if $tile-background_image == "true" {
     background-size: auto;
@@ -50,7 +50,7 @@ $max-width: 600px;
   .search-input {
     flex: 1 1 auto;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     .searching {
       // spinner
       top: 0.5em;
@@ -60,10 +60,11 @@ $max-width: 600px;
 
   h1 {
     font-size: var(--font-up-6);
-    line-height: $line-height-medium;
+    line-height: $line-height-large;
     @include breakpoint(tablet) {
       font-size: var(--font-up-4);
     }
+    color: linear-gradient(90deg, #66D4F7 0%, #4D92FF 32.29%, #BB65FF 100%);
   }
 
   h1,

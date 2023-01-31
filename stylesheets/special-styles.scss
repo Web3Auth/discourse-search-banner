@@ -3,7 +3,7 @@
     padding: 0;
 
     @if $background-image != "" {
-      background-image: url(#{$background-image});
+      background-color: #0A0B33;
       padding: 4em 4em 4.25em;
 
       .search-input {
